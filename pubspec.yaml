@@ -1,0 +1,26 @@
+name: flutter_connectivity_hook
+description: "A new Flutter package project."
+version: 0.1.1
+homepage:
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_connectivity:
+    git:
+      url: https://github.com/Iconica-Development/flutter_connectivity.git
+      ref: 0.1.1
+  flutter_hooks: ^0.20.4
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
