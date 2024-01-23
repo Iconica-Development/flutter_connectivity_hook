@@ -66,18 +66,18 @@ packages:
     dependency: transitive
     description:
       path: "."
-      ref: "0.1.1"
-      resolved-ref: "1d66a9b1f72ff204dbf820c50fca1b9e07e400b0"
+      ref: "0.2.1"
+      resolved-ref: "1caef96cc495079d35b9cc7a66e3fa8eb12a349e"
       url: "https://github.com/Iconica-Development/flutter_connectivity.git"
     source: git
-    version: "0.1.1"
+    version: "0.2.1"
   flutter_connectivity_hook:
     dependency: "direct main"
     description:
       path: ".."
       relative: true
     source: path
-    version: "0.1.0"
+    version: "0.2.1"
   flutter_hooks:
     dependency: "direct main"
     description:
