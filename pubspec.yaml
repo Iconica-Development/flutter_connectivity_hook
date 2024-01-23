@@ -1,6 +1,6 @@
 name: flutter_connectivity_hook
 description: "A new Flutter package project."
-version: 0.1.1
+version: 0.2.1
 homepage:
 publish_to: 'none'
 
@@ -14,7 +14,7 @@ dependencies:
   flutter_connectivity:
     git:
       url: https://github.com/Iconica-Development/flutter_connectivity.git
-      ref: 0.1.1
+      ref: 0.2.1
   flutter_hooks: ^0.20.4
 
 
