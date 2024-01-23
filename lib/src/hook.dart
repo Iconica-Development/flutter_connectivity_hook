@@ -6,12 +6,14 @@ var useConnectivity = ({
   BuildContext? context,
   ConnectivityConfig? config,
   Widget? fallBackScreen,
+  ConnectivityDisplayType? displayType,
 }) =>
     use(
       _UseConnectivity(
         context: context,
         config: config,
         fallBackScreen: fallBackScreen,
+        displayType: displayType,
       ),
     );
 
@@ -20,11 +22,13 @@ class _UseConnectivity extends Hook<void> {
     this.context,
     this.config,
     this.fallBackScreen,
+    this.displayType,
   });
 
   final BuildContext? context;
   final ConnectivityConfig? config;
   final Widget? fallBackScreen;
+  final ConnectivityDisplayType? displayType;
 
   @override
   _UseConnectivityState createState() => _UseConnectivityState();
@@ -38,6 +42,7 @@ class _UseConnectivityState extends HookState<void, _UseConnectivity> {
     Connectivity.instance.start(
       context: hook.context,
       fallBackScreen: hook.fallBackScreen,
+      connectivityDisplayType: hook.displayType,
     );
 
     if (hook.config != null) {
