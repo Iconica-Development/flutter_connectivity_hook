@@ -1,3 +1,6 @@
+## 0.2.5
+* flutter_connectivity version to 0.2.4
+
 ## 0.2.4
 
 * Added Iconica CI and Iconica Linter, flutter_connectivity version to 0.2.3
