@@ -99,7 +99,7 @@ Please file any issues, bugs or feature request as an issue on our [GitHub](http
 
 Make sure when updating either [flutter_connectivity](https://github.com/Iconica-Development/flutter_connectivity) or [flutter_connectivity_hook](https://github.com/Iconica-Development/flutter_connectivity_hook) to keep the versioning in sync.
 
-If you would like to contribute to the plugin (e.g. by improving the documentation, solving a bug or adding a cool new feature), please carefully review our [contribution guide](../CONTRIBUTING.md) and send us your [pull request](https://github.com/Iconica-Development/flutter_connectivity_hook/pulls).
+If you would like to contribute to the plugin (e.g. by improving the documentation, solving a bug or adding a cool new feature), please carefully review our [contribution guide](./CONTRIBUTING.md) and send us your [pull request](https://github.com/Iconica-Development/flutter_connectivity_hook/pulls).
 
 ## Author
 
