@@ -1,3 +1,6 @@
+## 0.2.6
+* flutter_connectivity version to 0.2.5
+
 ## 0.2.5
 * flutter_connectivity version to 0.2.4
 
