@@ -38,16 +38,14 @@ class _UseConnectivityState extends HookState<void, _UseConnectivity> {
   @override
   void initHook() {
     super.initHook();
-
+    if (hook.config != null) {
+      Connectivity.instance.setCustomConfig(hook.config!);
+    }
     Connectivity.instance.start(
       context: hook.context,
       fallBackScreen: hook.fallBackScreen,
       connectivityDisplayType: hook.displayType,
     );
-
-    if (hook.config != null) {
-      Connectivity.instance.setCustomConfig(hook.config!);
-    }
   }
 
   @override
