@@ -1,3 +1,6 @@
+## 0.2.8
+* flutter_connectivity version to 0.2.7
+
 ## 0.2.7
 * Fixed a bug with the configuration being updated after the timer was already started
 
